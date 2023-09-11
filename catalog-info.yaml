@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "tsadam"
+  description: "What kind of sorcery is this?"
+  annotations:
+    github.com/project-slug: outesting/tsadam
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: repository
+  lifecycle: experimental
+  owner: "group:default/admin"
